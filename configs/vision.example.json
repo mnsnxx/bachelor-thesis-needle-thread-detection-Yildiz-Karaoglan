@@ -1,0 +1,7 @@
+{
+  "camera_id": "REPLACE_WITH_CAMERA_SERIAL",
+  "resolution_px": [1920, 1080],
+  "recording_only": true,
+  "publish_scene_state": true,
+  "robot_control_enabled": false
+}

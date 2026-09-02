@@ -1,0 +1,21 @@
+{
+  "version": "example-not-for-hardware",
+  "camera": {
+    "serial": "REPLACE_WITH_CAMERA_SERIAL",
+    "resolution_px": [1920, 1080],
+    "K": [[0, 0, 0], [0, 0, 0], [0, 0, 1]],
+    "distortion": [0, 0, 0, 0, 0],
+    "reprojection_rmse_px": null
+  },
+  "transforms": {
+    "T_global_camera": null,
+    "T_robot1_global": null,
+    "T_robot2_global": null
+  },
+  "validation": {
+    "date_utc": null,
+    "method": null,
+    "position_error_mm": null,
+    "approved_by": null
+  }
+}

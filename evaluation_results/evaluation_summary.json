@@ -1,0 +1,50 @@
+{
+    "configuration": {
+        "sample_every_n_frames": 39,
+        "roi": {
+            "x_min": 0.26,
+            "x_max": 0.96,
+            "y_min": 0.14,
+            "y_max": 0.98
+        },
+        "detection_parameters": {
+            "Faden Schwelle": 8,
+            "Min Faden": 20,
+            "Canny niedrig": 40,
+            "Canny hoch": 140,
+            "Dunkle Nadel": 6
+        },
+        "video_directory": "C:\\Users\\user\\OneDrive\\Masaüstü\\BA\\autonomous-surgery-labor\\autonomous-surgery-unified\\data\\phantom_videos",
+        "ground_truth_file": "C:\\Users\\user\\OneDrive\\Masaüstü\\BA\\autonomous-surgery-labor\\autonomous-surgery-unified\\evaluation_results\\ground_truth.csv"
+    },
+    "total_evaluated_frames": 6340,
+    "processing_time": {
+        "mean_ms": 154.939835,
+        "std_ms": 158.668197,
+        "min_ms": 37.579,
+        "max_ms": 2267.1609,
+        "theoretical_fps": 6.454118
+    },
+    "overall": {
+        "needle": {
+            "TP": 2406,
+            "FP": 552,
+            "FN": 2792,
+            "TN": 590,
+            "precision": 0.813387,
+            "recall": 0.46287,
+            "f1_score": 0.589995,
+            "accuracy": 0.472555
+        },
+        "thread": {
+            "TP": 5143,
+            "FP": 452,
+            "FN": 117,
+            "TN": 628,
+            "precision": 0.919214,
+            "recall": 0.977757,
+            "f1_score": 0.947582,
+            "accuracy": 0.910252
+        }
+    }
+}

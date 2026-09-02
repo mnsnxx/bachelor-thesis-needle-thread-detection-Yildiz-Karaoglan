@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+data/
+recordings/
+calibration/*.json
+!calibration/calibration.example.json
+*.log
+
+
+# Do not include the root README
+/README.md
